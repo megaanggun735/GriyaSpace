@@ -1,11 +1,12 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="id">
 
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <title>Daftar Properti - GriyaSpace</title>
-  <meta name="description" content="Temukan beragam properti impian Anda di GriyaSpace. Mulai dari rumah cluster mewah, apartemen tengah kota, hingga ruko komersial strategis.">
+  <meta name="description"
+    content="Temukan beragam properti impian Anda di GriyaSpace. Mulai dari rumah cluster mewah, apartemen tengah kota, hingga ruko komersial strategis.">
   <meta name="keywords" content="properti dijual, sewa rumah, apartemen murah, ruko strategis, griyaspace">
 
   <!-- Favicons -->
@@ -15,7 +16,9 @@
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com" rel="preconnect">
   <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
 
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -33,6 +36,7 @@
     .properties-masonry .property-col {
       display: flex;
     }
+
     .properties-masonry .property-item {
       display: flex;
       flex-direction: column;
@@ -54,11 +58,11 @@
       gap: 10px;
       margin-top: auto;
       padding-top: 12px;
-      border-top: 1px solid rgba(0,0,0,.08);
+      border-top: 1px solid rgba(0, 0, 0, .08);
     }
 
     /* Link wrapper agent (avatar + nama) */
-    .property-agent-info > a.property-link {
+    .property-agent-info>a.property-link {
       display: flex;
       align-items: center;
       gap: 10px;
@@ -73,6 +77,7 @@
       width: 40px;
       height: 40px;
     }
+
     .agent-avatar img {
       width: 40px;
       height: 40px;
@@ -85,6 +90,7 @@
       min-width: 0;
       overflow: hidden;
     }
+
     .agent-details strong {
       display: block;
       font-size: 13px;
@@ -92,6 +98,7 @@
       overflow: hidden;
       text-overflow: ellipsis;
     }
+
     .agent-details span {
       display: block;
       font-size: 11px;
@@ -121,12 +128,19 @@
           <g id="tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
           <g id="iconCarrier">
             <path d="M22 22L2 22" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path>
-            <path d="M2 11L6.06296 7.74968M22 11L13.8741 4.49931C12.7784 3.62279 11.2216 3.62279 10.1259 4.49931L9.34398 5.12486" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path>
-            <path d="M15.5 5.5V3.5C15.5 3.22386 15.7239 3 16 3H18.5C18.7761 3 19 3.22386 19 3.5V8.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path>
+            <path
+              d="M2 11L6.06296 7.74968M22 11L13.8741 4.49931C12.7784 3.62279 11.2216 3.62279 10.1259 4.49931L9.34398 5.12486"
+              stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path>
+            <path d="M15.5 5.5V3.5C15.5 3.22386 15.7239 3 16 3H18.5C18.7761 3 19 3.22386 19 3.5V8.5"
+              stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path>
             <path d="M4 22V9.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path>
             <path d="M20 9.5V13.5M20 22V17.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path>
-            <path d="M15 22V17C15 15.5858 15 14.8787 14.5607 14.4393C14.1213 14 13.4142 14 12 14C10.5858 14 9.87868 14 9.43934 14.4393M9 22V17" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
-            <path d="M14 9.5C14 10.6046 13.1046 11.5 12 11.5C10.8954 11.5 10 10.6046 10 9.5C10 8.39543 10.8954 7.5 12 7.5C13.1046 7.5 14 8.39543 14 9.5Z" stroke="currentColor" stroke-width="1.5"></path>
+            <path
+              d="M15 22V17C15 15.5858 15 14.8787 14.5607 14.4393C14.1213 14 13.4142 14 12 14C10.5858 14 9.87868 14 9.43934 14.4393M9 22V17"
+              stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path
+              d="M14 9.5C14 10.6046 13.1046 11.5 12 11.5C10.8954 11.5 10 10.6046 10 9.5C10 8.39543 10.8954 7.5 12 7.5C13.1046 7.5 14 8.39543 14 9.5Z"
+              stroke="currentColor" stroke-width="1.5"></path>
           </g>
         </svg>
         <h1 class="sitename">GriyaSpace</h1>
@@ -242,11 +256,11 @@
               <div class="results-controls">
                 <div class="d-flex gap-3 align-items-center justify-content-lg-end">
                   <div class="sort-dropdown">
-                    <select class="form-select form-select-sm" style="min-width: 230px;">
-                      <option>Harga: Terendah ke Tertinggi</option>
-                      <option>Harga: Tertinggi ke Terendah</option>
-                      <option>Terbaru</option>
-                      <option>Ukuran Terluas</option>
+                    <select id="sort-select" class="form-select form-select-sm" style="min-width: 230px;">
+                      <option value="price-asc">Harga: Terendah ke Tertinggi</option>
+                      <option value="price-desc">Harga: Tertinggi ke Terendah</option>
+                      <option value="newest">Terbaru</option>
+                      <option value="area-desc">Ukuran Terluas</option>
                     </select>
                   </div>
                   <div class="view-toggle">
@@ -268,11 +282,8 @@
           <div class="properties-masonry view-masonry active" data-aos="fade-up" data-aos-delay="250">
             <div class="row g-4">
 
-              <div class="col-lg-4 col-md-6 property-col"
-                data-lokasi="jakarta selatan kebayoran baru"
-                data-tipe="Rumah"
-                data-harga="18500"
-                data-beds="5">
+              <div class="col-lg-4 col-md-6 property-col" data-lokasi="jakarta selatan kebayoran baru" data-tipe="Rumah"
+                data-harga="18500" data-beds="5">
                 <div class="property-item">
                   <a href="property-details-6.html" class="property-link">
                     <div class="property-image-wrapper">
@@ -341,15 +352,13 @@
                 </div>
               </div><!-- End Property Item -->
 
-              <div class="col-lg-4 col-md-6 property-col"
-                data-lokasi="jakarta selatan sudirman"
-                data-tipe="Apartemen"
-                data-harga="45"
-                data-beds="3">
+              <div class="col-lg-4 col-md-6 property-col" data-lokasi="jakarta selatan sudirman" data-tipe="Apartemen"
+                data-harga="45" data-beds="3">
                 <div class="property-item">
                   <a href="property-details-7.html" class="property-link">
                     <div class="property-image-wrapper">
-                      <img src="assets/img/real-estate/property-interior-1.webp" alt="Modern Penthouse" class="img-fluid">
+                      <img src="assets/img/real-estate/property-interior-1.webp" alt="Modern Penthouse"
+                        class="img-fluid">
                       <div class="property-status">
                         <span class="status-badge new">Baru Terdaftar</span>
                         <span class="status-badge rent">Disewakan</span>
@@ -414,10 +423,7 @@
                 </div>
               </div><!-- End Property Item -->
 
-              <div class="col-lg-4 col-md-6 property-col"
-                data-lokasi="bandung dago"
-                data-tipe="Rumah"
-                data-harga="1900"
+              <div class="col-lg-4 col-md-6 property-col" data-lokasi="bandung dago" data-tipe="Rumah" data-harga="1900"
                 data-beds="4">
                 <div class="property-item">
                   <a href="property-details-8.html" class="property-link">
@@ -486,11 +492,8 @@
                 </div>
               </div><!-- End Property Item -->
 
-              <div class="col-lg-4 col-md-6 property-col"
-                data-lokasi="tangerang serpong"
-                data-tipe="Loft"
-                data-harga="25"
-                data-beds="0">
+              <div class="col-lg-4 col-md-6 property-col" data-lokasi="tangerang serpong" data-tipe="Loft"
+                data-harga="25" data-beds="0">
                 <div class="property-item">
                   <a href="property-details-9.html" class="property-link">
                     <div class="property-image-wrapper">
@@ -560,11 +563,8 @@
                 </div>
               </div><!-- End Property Item -->
 
-              <div class="col-lg-4 col-md-6 property-col"
-                data-lokasi="jakarta utara pantai indah kapuk pik"
-                data-tipe="Townhouse"
-                data-harga="2800"
-                data-beds="3">
+              <div class="col-lg-4 col-md-6 property-col" data-lokasi="jakarta utara pantai indah kapuk pik"
+                data-tipe="Townhouse" data-harga="2800" data-beds="3">
                 <div class="property-item">
                   <a href="property-details-10.html" class="property-link">
                     <div class="property-image-wrapper">
@@ -632,11 +632,8 @@
                 </div>
               </div><!-- End Property Item -->
 
-              <div class="col-lg-4 col-md-6 property-col"
-                data-lokasi="jakarta selatan kuningan"
-                data-tipe="Kondominium"
-                data-harga="2200"
-                data-beds="2">
+              <div class="col-lg-4 col-md-6 property-col" data-lokasi="jakarta selatan kuningan" data-tipe="Kondominium"
+                data-harga="2200" data-beds="2">
                 <div class="property-item">
                   <a href="property-details-11.html" class="property-link">
                     <div class="property-image-wrapper">
@@ -705,6 +702,7 @@
                 </div>
               </div><!-- End Property Item -->
 
+
             </div>
           </div>
 
@@ -762,7 +760,8 @@
                                   <i class="bi bi-images"></i> 14 Foto
                                 </button>
                               </div>
-                              <a href="property-details-6.html" class="btn btn-primary view-details-btn">Detail Selengkapnya</a>
+                              <a href="property-details-6.html" class="btn btn-primary view-details-btn">Detail
+                                Selengkapnya</a>
                             </div>
                           </div>
                         </div>
@@ -777,7 +776,8 @@
                   <div class="row align-items-center">
                     <div class="col-lg-4">
                       <div class="property-image-wrapper">
-                        <img src="assets/img/real-estate/property-interior-1.webp" alt="Modern Apartment" class="img-fluid">
+                        <img src="assets/img/real-estate/property-interior-1.webp" alt="Modern Apartment"
+                          class="img-fluid">
                         <div class="property-status">
                           <span class="status-badge new">Baru</span>
                         </div>
@@ -823,7 +823,8 @@
                                   <i class="bi bi-images"></i> 9 Foto
                                 </button>
                               </div>
-                              <a href="property-details-7.html" class="btn btn-primary view-details-btn">Detail Selengkapnya</a>
+                              <a href="property-details-7.html" class="btn btn-primary view-details-btn">Detail
+                                Selengkapnya</a>
                             </div>
                           </div>
                         </div>
@@ -884,7 +885,8 @@
                                   <i class="bi bi-images"></i> 11 Foto
                                 </button>
                               </div>
-                              <a href="property-details-8.html" class="btn btn-primary view-details-btn">Detail Selengkapnya</a>
+                              <a href="property-details-8.html" class="btn btn-primary view-details-btn">Detail
+                                Selengkapnya</a>
                             </div>
                           </div>
                         </div>
@@ -893,6 +895,161 @@
                   </div>
                 </div>
               </div><!-- End Property Row Item -->
+
+              <!-- Sample Properti Mega (Row View) -->
+              <div class="col-12">
+                <div class="property-row-item">
+                  <div class="row align-items-center">
+                    <div class="col-lg-4">
+                      <div class="property-image-wrapper">
+                        <img src="assets/img/real-estate/property-exterior-3.webp" alt="Ruko Komersial"
+                          class="img-fluid">
+                        <div class="property-status"><span class="status-badge sale">Dijual</span></div>
+                      </div>
+                    </div>
+                    <div class="col-lg-8">
+                      <div class="property-row-content">
+                        <div class="row align-items-center">
+                          <div class="col-lg-8">
+                            <div class="property-info">
+                              <div class="property-header">
+                                <h4 class="property-title">Ruko Strategis 2 Lantai Tebet</h4>
+                                <div class="property-type-price"><span class="property-type">Ruko</span><span
+                                    class="property-price">Rp 1,5 Miliar</span></div>
+                              </div>
+                              <p class="property-address"><i class="bi bi-geo-alt"></i> Jl. Tebet Raya No. 10, Jakarta
+                                Selatan</p>
+                              <div class="property-specs">
+                                <span><i class="bi bi-house-door"></i> 0 KT</span>
+                                <span><i class="bi bi-droplet"></i> 2 KM</span>
+                                <span><i class="bi bi-arrows-angle-expand"></i> Lb: 120 m²</span>
+                              </div>
+                              <div class="property-agent">
+                                <img src="assets/img/real-estate/agent-1.webp" alt="Agent" class="agent-avatar">
+                                <span>Mega, GriyaSpace Agent</span>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-lg-4">
+                            <div class="property-actions">
+                              <div class="action-buttons">
+                                <button class="action-btn favorite-btn"><i class="bi bi-heart"></i> Simpan</button>
+                                <button class="action-btn contact-btn"><i class="bi bi-telephone"></i> Telp</button>
+                                <button class="action-btn gallery-btn"><i class="bi bi-images"></i> 5 Foto</button>
+                              </div>
+                              <a href="property-details.html" class="btn btn-primary view-details-btn">Detail
+                                Selengkapnya</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-12">
+                <div class="property-row-item">
+                  <div class="row align-items-center">
+                    <div class="col-lg-4">
+                      <div class="property-image-wrapper">
+                        <img src="assets/img/real-estate/property-exterior-4.webp" alt="Ruko Minimalis"
+                          class="img-fluid">
+                        <div class="property-status"><span class="status-badge rent">Disewakan</span></div>
+                      </div>
+                    </div>
+                    <div class="col-lg-8">
+                      <div class="property-row-content">
+                        <div class="row align-items-center">
+                          <div class="col-lg-8">
+                            <div class="property-info">
+                              <div class="property-header">
+                                <h4 class="property-title">Sewa Ruko Minimalis Bekasi</h4>
+                                <div class="property-type-price"><span class="property-type">Ruko</span><span
+                                    class="property-price">Rp 150 Juta<small>/tahun</small></span></div>
+                              </div>
+                              <p class="property-address"><i class="bi bi-geo-alt"></i> Jl. Kalimalang Raya, Bekasi
+                                Barat</p>
+                              <div class="property-specs">
+                                <span><i class="bi bi-house-door"></i> 0 KT</span>
+                                <span><i class="bi bi-droplet"></i> 1 KM</span>
+                                <span><i class="bi bi-arrows-angle-expand"></i> Lb: 80 m²</span>
+                              </div>
+                              <div class="property-agent">
+                                <img src="assets/img/real-estate/agent-2.webp" alt="Agent" class="agent-avatar">
+                                <span>Mega, GriyaSpace Agent</span>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-lg-4">
+                            <div class="property-actions">
+                              <div class="action-buttons">
+                                <button class="action-btn favorite-btn"><i class="bi bi-heart"></i> Simpan</button>
+                                <button class="action-btn contact-btn"><i class="bi bi-telephone"></i> Telp</button>
+                                <button class="action-btn gallery-btn"><i class="bi bi-images"></i> 3 Foto</button>
+                              </div>
+                              <a href="property-details.html" class="btn btn-primary view-details-btn">Detail
+                                Selengkapnya</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-12">
+                <div class="property-row-item">
+                  <div class="row align-items-center">
+                    <div class="col-lg-4">
+                      <div class="property-image-wrapper">
+                        <img src="assets/img/real-estate/property-exterior-8.webp" alt="Ruko Premium" class="img-fluid">
+                        <div class="property-status"><span class="status-badge featured">Unggulan</span><span
+                            class="status-badge sale">Dijual</span></div>
+                      </div>
+                    </div>
+                    <div class="col-lg-8">
+                      <div class="property-row-content">
+                        <div class="row align-items-center">
+                          <div class="col-lg-8">
+                            <div class="property-info">
+                              <div class="property-header">
+                                <h4 class="property-title">Ruko Premium Boulevard Kelapa Gading</h4>
+                                <div class="property-type-price"><span class="property-type">Ruko</span><span
+                                    class="property-price">Rp 4,5 Miliar</span></div>
+                              </div>
+                              <p class="property-address"><i class="bi bi-geo-alt"></i> Boulevard Raya, Kelapa Gading,
+                                Jakarta Utara</p>
+                              <div class="property-specs">
+                                <span><i class="bi bi-house-door"></i> 0 KT</span>
+                                <span><i class="bi bi-droplet"></i> 3 KM</span>
+                                <span><i class="bi bi-arrows-angle-expand"></i> Lb: 250 m²</span>
+                              </div>
+                              <div class="property-agent">
+                                <img src="assets/img/real-estate/agent-3.webp" alt="Agent" class="agent-avatar">
+                                <span>Mega, GriyaSpace Agent</span>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-lg-4">
+                            <div class="property-actions">
+                              <div class="action-buttons">
+                                <button class="action-btn favorite-btn"><i class="bi bi-heart"></i> Simpan</button>
+                                <button class="action-btn contact-btn"><i class="bi bi-telephone"></i> Telp</button>
+                                <button class="action-btn gallery-btn"><i class="bi bi-images"></i> 8 Foto</button>
+                              </div>
+                              <a href="property-details.html" class="btn btn-primary view-details-btn">Detail
+                                Selengkapnya</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- End Sample Properti Mega (Row View) -->
 
             </div>
           </div>
@@ -942,7 +1099,8 @@
           <a href="index.html" class="logo d-flex align-items-center">
             <span class="sitename">GriyaSpace</span>
           </a>
-          <p>Solusi terpercaya untuk kebutuhan properti Anda. Menyediakan layanan jual, beli, dan sewa properti terbaik di seluruh Indonesia secara aman, transparan, dan profesional.</p>
+          <p>Solusi terpercaya untuk kebutuhan properti Anda. Menyediakan layanan jual, beli, dan sewa properti terbaik
+            di seluruh Indonesia secara aman, transparan, dan profesional.</p>
           <div class="social-links d-flex mt-4">
             <a href=""><i class="bi bi-twitter-x"></i></a>
             <a href=""><i class="bi bi-facebook"></i></a>
@@ -962,16 +1120,16 @@
           </ul>
         </div>
 
-                            <div class="col-lg-2 col-6 footer-links">
-            <h4>Layanan Kami</h4>
-            <ul>
-              <li><a href="properties.html">Pencarian Properti</a></li>
-              <li><a href="service-details.html">Penilaian Properti</a></li>
-              <li><a href="properties.html">Sewa Properti</a></li>
-              <li><a href="contact.html">Konsultasi Investasi</a></li>
-              <li><a href="contact.html">Pengajuan KPR</a></li>
-            </ul>
-          </div>
+        <div class="col-lg-2 col-6 footer-links">
+          <h4>Layanan Kami</h4>
+          <ul>
+            <li><a href="properties.html">Pencarian Properti</a></li>
+            <li><a href="service-details.html">Penilaian Properti</a></li>
+            <li><a href="properties.html">Sewa Properti</a></li>
+            <li><a href="contact.html">Konsultasi Investasi</a></li>
+            <li><a href="contact.html">Pengajuan KPR</a></li>
+          </ul>
+        </div>
 
         <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
           <h4>Hubungi Kami</h4>
@@ -992,7 +1150,8 @@
   </footer>
 
   <!-- Scroll Top -->
-  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
 
   <!-- Preloader -->
   <div id="preloader"></div>
@@ -1009,65 +1168,80 @@
 
   <!-- Property Filter JS -->
   <script>
-  (function () {
-    // ── Refs ──────────────────────────────────────────────
-    const inputLokasi  = document.getElementById('filter-lokasi');
-    const selectTipe   = document.getElementById('filter-tipe');
-    const selectHarga  = document.getElementById('filter-harga');
-    const bedBtns      = document.querySelectorAll('#filter-beds .bed-btn');
-    const searchBtn    = document.getElementById('search-btn');
-    const resultsCount = document.getElementById('results-count');
-    const resultsDesc  = document.getElementById('results-desc');
+    (function () {
+      // ── Refs ──────────────────────────────────────────────
+      const inputLokasi = document.getElementById('filter-lokasi');
+      const selectTipe = document.getElementById('filter-tipe');
+      const selectHarga = document.getElementById('filter-harga');
+      const bedBtns = document.querySelectorAll('#filter-beds .bed-btn');
+      const searchBtn = document.getElementById('search-btn');
+      const resultsCount = document.getElementById('results-count');
+      const resultsDesc = document.getElementById('results-desc');
+      const sortSelect = document.getElementById('sort-select');
+      const paginationInfo = document.querySelector('.pagination-info p');
 
-    // All property cards (masonry view only; row view is duplicate)
-    const propertyCols = document.querySelectorAll('.properties-masonry .property-col');
-    const propertyRows = document.querySelectorAll('.properties-rows .col-12');
+      // All property cards (masonry view only; row view is duplicate)
+      const propertyCols = document.querySelectorAll('.properties-masonry .property-col');
+      const propertyRows = document.querySelectorAll('.properties-rows .col-12');
 
-    // ── View Toggle Logic ────────────────────────────────
-    const viewBtns = document.querySelectorAll('.view-toggle .view-btn');
-    const viewMasonry = document.querySelector('.view-masonry');
-    const viewRows = document.querySelector('.view-rows');
-    
-    // Ensure initial state based on active class
-    if (viewRows && !viewRows.classList.contains('active')) {
-      viewRows.style.display = 'none';
-    }
+      const masonryRow = document.querySelector('.properties-masonry .row');
+      const rowsRow = document.querySelector('.properties-rows .row');
 
-    viewBtns.forEach(btn => {
-      btn.addEventListener('click', function(e) {
-        e.preventDefault();
-        viewBtns.forEach(b => b.classList.remove('active'));
-        this.classList.add('active');
-        
-        if (this.dataset.view === 'masonry') {
-          if (viewMasonry) {
-            viewMasonry.classList.add('active');
-            viewMasonry.style.display = 'block';
-          }
-          if (viewRows) {
-            viewRows.classList.remove('active');
-            viewRows.style.display = 'none';
-          }
-        } else {
-          if (viewMasonry) {
-            viewMasonry.classList.remove('active');
-            viewMasonry.style.display = 'none';
-          }
-          if (viewRows) {
-            viewRows.classList.add('active');
-            viewRows.style.display = 'block';
-          }
-        }
+      propertyCols.forEach((col, i) => {
+        col.dataset.index = i;
+        const match = col.innerHTML.match(/Lb:\s*([\d\.]+)\s*m²/i);
+        col.dataset.area = match ? match[1].replace(/\./g, '') : 0;
       });
-    });
 
-    // Empty state element – created once
-    let emptyState = document.querySelector('.no-results-msg');
-    if (!emptyState) {
-      emptyState = document.createElement('div');
-      emptyState.className = 'no-results-msg col-12 text-center py-5';
-      emptyState.style.cssText = 'display:none;';
-      emptyState.innerHTML = `
+      propertyRows.forEach((row, i) => {
+        row.dataset.index = i;
+      });
+
+      // ── View Toggle Logic ────────────────────────────────
+      const viewBtns = document.querySelectorAll('.view-toggle .view-btn');
+      const viewMasonry = document.querySelector('.view-masonry');
+      const viewRows = document.querySelector('.view-rows');
+
+      // Ensure initial state based on active class
+      if (viewRows && !viewRows.classList.contains('active')) {
+        viewRows.style.display = 'none';
+      }
+
+      viewBtns.forEach(btn => {
+        btn.addEventListener('click', function (e) {
+          e.preventDefault();
+          viewBtns.forEach(b => b.classList.remove('active'));
+          this.classList.add('active');
+
+          if (this.dataset.view === 'masonry') {
+            if (viewMasonry) {
+              viewMasonry.classList.add('active');
+              viewMasonry.style.display = 'block';
+            }
+            if (viewRows) {
+              viewRows.classList.remove('active');
+              viewRows.style.display = 'none';
+            }
+          } else {
+            if (viewMasonry) {
+              viewMasonry.classList.remove('active');
+              viewMasonry.style.display = 'none';
+            }
+            if (viewRows) {
+              viewRows.classList.add('active');
+              viewRows.style.display = 'block';
+            }
+          }
+        });
+      });
+
+      // Empty state element – created once
+      let emptyState = document.querySelector('.no-results-msg');
+      if (!emptyState) {
+        emptyState = document.createElement('div');
+        emptyState.className = 'no-results-msg col-12 text-center py-5';
+        emptyState.style.cssText = 'display:none;';
+        emptyState.innerHTML = `
         <div style="padding:3rem 1rem;">
           <i class="bi bi-search" style="font-size:3rem;color:#ccc;display:block;margin-bottom:1rem;"></i>
           <h5 style="color:#666;margin-bottom:.5rem;">Tidak Ada Properti Ditemukan</h5>
@@ -1076,130 +1250,162 @@
             <i class="bi bi-arrow-counterclockwise"></i> Reset Filter
           </button>
         </div>`;
-      document.querySelector('.properties-masonry .row').appendChild(emptyState);
-      emptyState.querySelector('#reset-filter-btn').addEventListener('click', resetFilters);
-    }
+        document.querySelector('.properties-masonry .row').appendChild(emptyState);
+        emptyState.querySelector('#reset-filter-btn').addEventListener('click', resetFilters);
+      }
 
-    // ── Active beds selection ────────────────────────────
-    let activeBeds = 'any';
-    bedBtns.forEach(btn => {
-      btn.addEventListener('click', () => {
-        bedBtns.forEach(b => b.classList.remove('active'));
-        btn.classList.add('active');
-        activeBeds = btn.dataset.beds;
-        runFilter(); // langsung filter saat diklik
+      // ── Active beds selection ────────────────────────────
+      let activeBeds = 'any';
+      bedBtns.forEach(btn => {
+        btn.addEventListener('click', () => {
+          bedBtns.forEach(b => b.classList.remove('active'));
+          btn.classList.add('active');
+          activeBeds = btn.dataset.beds;
+          runFilter(); // langsung filter saat diklik
+        });
       });
-    });
 
-    // ── Enter key on lokasi input ────────────────────────
-    inputLokasi.addEventListener('keydown', e => {
-      if (e.key === 'Enter') runFilter();
-    });
+      // ── Enter key on lokasi input ────────────────────────
+      inputLokasi.addEventListener('keydown', e => {
+        if (e.key === 'Enter') runFilter();
+      });
 
-    // ── Search button click ──────────────────────────────
-    searchBtn.addEventListener('click', runFilter);
+      // ── Search button click ──────────────────────────────
+      searchBtn.addEventListener('click', runFilter);
+      if (sortSelect) sortSelect.addEventListener('change', runFilter);
 
-    // ── Core filter function ────────────────────────────
-    function runFilter() {
-      const keyword = inputLokasi.value.trim().toLowerCase();
-      const tipe    = selectTipe.value.toLowerCase();
-      const harga   = selectHarga.value;   // 'under500' | '500to2000' | 'above2000' | ''
-      const beds    = activeBeds;           // 'any' | '1'..'4'
+      // ── Core filter function ────────────────────────────
+      function runFilter() {
+        const keyword = inputLokasi.value.trim().toLowerCase();
+        const tipe = selectTipe.value.toLowerCase();
+        const harga = selectHarga.value;   // 'under500' | '500to2000' | 'above2000' | ''
+        const beds = activeBeds;           // 'any' | '1'..'4'
 
-      let visible = 0;
+        let visible = 0;
 
-      propertyCols.forEach((col, index) => {
-        const colLokasi = (col.dataset.lokasi || '').toLowerCase();
-        const colTipe   = (col.dataset.tipe   || '').toLowerCase();
-        const colHarga  = parseFloat(col.dataset.harga || 0);  // in Juta
-        const colBeds   = parseInt(col.dataset.beds   || 0, 10);
+        propertyCols.forEach((col, index) => {
+          const colLokasi = (col.dataset.lokasi || '').toLowerCase();
+          const colTipe = (col.dataset.tipe || '').toLowerCase();
+          const colHarga = parseFloat(col.dataset.harga || 0);  // in Juta
+          const colBeds = parseInt(col.dataset.beds || 0, 10);
 
-        // ── Lokasi match ──
-        const lokasiOk = !keyword || colLokasi.includes(keyword);
+          // ── Lokasi match ──
+          const lokasiOk = !keyword || colLokasi.includes(keyword);
 
-        // ── Tipe match ──
-        const tipeOk = !tipe || colTipe === tipe.toLowerCase();
+          // ── Tipe match ──
+          const tipeOk = !tipe || colTipe === tipe.toLowerCase();
 
-        // ── Harga match (harga data stored in Juta) ──
-        let hargaOk = true;
-        if (harga === 'under500')    hargaOk = colHarga < 500;
-        else if (harga === '500to2000') hargaOk = colHarga >= 500 && colHarga <= 2000;
-        else if (harga === 'above2000') hargaOk = colHarga > 2000;
+          // ── Harga match (harga data stored in Juta) ──
+          let hargaOk = true;
+          if (harga === 'under500') hargaOk = colHarga < 500;
+          else if (harga === '500to2000') hargaOk = colHarga >= 500 && colHarga <= 2000;
+          else if (harga === 'above2000') hargaOk = colHarga > 2000;
 
-        // ── Beds match ──
-        // "1","2","3" = exact match | "4" = 4 atau lebih
-        let bedsOk = true;
-        if (beds !== 'any') {
-          const minBeds = parseInt(beds, 10);
-          if (minBeds === 4) {
-            bedsOk = colBeds >= 4;       // 4+ : semua yg punya 4 kamar atau lebih
-          } else {
-            bedsOk = colBeds === minBeds; // 1,2,3 : exact match
+          // ── Beds match ──
+          // "1","2","3" = exact match | "4" = 4 atau lebih
+          let bedsOk = true;
+          if (beds !== 'any') {
+            const minBeds = parseInt(beds, 10);
+            if (minBeds === 4) {
+              bedsOk = colBeds >= 4;       // 4+ : semua yg punya 4 kamar atau lebih
+            } else {
+              bedsOk = colBeds === minBeds; // 1,2,3 : exact match
+            }
           }
+
+          const show = lokasiOk && tipeOk && hargaOk && bedsOk;
+
+          // Animate show/hide
+          if (show) {
+            col.style.display = '';
+            col.style.animation = 'fadeInCard .35s ease both';
+            if (propertyRows[index]) {
+              propertyRows[index].style.display = '';
+              propertyRows[index].style.animation = 'fadeInCard .35s ease both';
+            }
+            visible++;
+          } else {
+            col.style.display = 'none';
+            if (propertyRows[index]) {
+              propertyRows[index].style.display = 'none';
+            }
+          }
+        });
+
+        // ── Sorting ──
+        const sortBy = sortSelect ? sortSelect.value : 'newest';
+
+        const sortedCols = Array.from(propertyCols).sort((a, b) => {
+          if (sortBy === 'price-asc') return parseFloat(a.dataset.harga || 0) - parseFloat(b.dataset.harga || 0);
+          if (sortBy === 'price-desc') return parseFloat(b.dataset.harga || 0) - parseFloat(a.dataset.harga || 0);
+          if (sortBy === 'area-desc') return parseFloat(b.dataset.area || 0) - parseFloat(a.dataset.area || 0);
+          return parseInt(a.dataset.index) - parseInt(b.dataset.index);
+        });
+
+        sortedCols.forEach(col => masonryRow.appendChild(col));
+        if (emptyState) masonryRow.appendChild(emptyState);
+
+        const sortedRows = Array.from(propertyRows).sort((a, b) => {
+          const colA = propertyCols[a.dataset.index];
+          const colB = propertyCols[b.dataset.index];
+          if (!colA || !colB) return 0;
+          if (sortBy === 'price-asc') return parseFloat(colA.dataset.harga || 0) - parseFloat(colB.dataset.harga || 0);
+          if (sortBy === 'price-desc') return parseFloat(colB.dataset.harga || 0) - parseFloat(colA.dataset.harga || 0);
+          if (sortBy === 'area-desc') return parseFloat(colA.dataset.area || 0) - parseFloat(colB.dataset.area || 0);
+          return parseInt(a.dataset.index) - parseInt(b.dataset.index);
+        });
+        sortedRows.forEach(row => rowsRow.appendChild(row));
+
+        // ── Update result count ──
+        resultsCount.textContent = visible + ' Properti Ditemukan';
+
+        // ── Update description ──
+        const parts = [];
+        if (keyword) parts.push('lokasi "' + inputLokasi.value.trim() + '"');
+        if (tipe) parts.push('tipe ' + selectTipe.options[selectTipe.selectedIndex].text);
+        if (harga) parts.push(selectHarga.options[selectHarga.selectedIndex].text);
+        if (beds !== 'any') parts.push(beds + '+ kamar tidur');
+        resultsDesc.textContent = parts.length
+          ? 'Filter: ' + parts.join(' · ')
+          : 'Menampilkan semua properti tersedia';
+
+        if (paginationInfo) {
+          paginationInfo.innerHTML = `Menampilkan <strong>${visible > 0 ? 1 : 0}-${visible}</strong> dari <strong>${visible}</strong> properti`;
         }
 
-        const show = lokasiOk && tipeOk && hargaOk && bedsOk;
+        // ── Empty state ──
+        emptyState.style.display = visible === 0 ? '' : 'none';
+      }
 
-        // Animate show/hide
-        if (show) {
+      // ── Reset filter ─────────────────────────────────────
+      function resetFilters() {
+        inputLokasi.value = '';
+        selectTipe.value = '';
+        selectHarga.value = '';
+        activeBeds = 'any';
+        bedBtns.forEach(b => b.classList.remove('active'));
+        document.querySelector('#filter-beds .bed-btn[data-beds="any"]').classList.add('active');
+        propertyCols.forEach((col, index) => {
           col.style.display = '';
           col.style.animation = 'fadeInCard .35s ease both';
           if (propertyRows[index]) {
             propertyRows[index].style.display = '';
             propertyRows[index].style.animation = 'fadeInCard .35s ease both';
           }
-          visible++;
-        } else {
-          col.style.display = 'none';
-          if (propertyRows[index]) {
-            propertyRows[index].style.display = 'none';
-          }
+        });
+        resultsCount.textContent = propertyCols.length + ' Properti Ditemukan';
+        resultsDesc.textContent = 'Menampilkan semua properti tersedia';
+        if (paginationInfo) {
+          paginationInfo.innerHTML = `Menampilkan <strong>${propertyCols.length > 0 ? 1 : 0}-${propertyCols.length}</strong> dari <strong>${propertyCols.length}</strong> properti`;
         }
-      });
+        emptyState.style.display = 'none';
+      }
 
-      // ── Update result count ──
-      resultsCount.textContent = visible + ' Properti Ditemukan';
-
-      // ── Update description ──
-      const parts = [];
-      if (keyword)   parts.push('lokasi "' + inputLokasi.value.trim() + '"');
-      if (tipe)      parts.push('tipe ' + selectTipe.options[selectTipe.selectedIndex].text);
-      if (harga)     parts.push(selectHarga.options[selectHarga.selectedIndex].text);
-      if (beds !== 'any') parts.push(beds + '+ kamar tidur');
-      resultsDesc.textContent = parts.length
-        ? 'Filter: ' + parts.join(' · ')
-        : 'Menampilkan semua properti tersedia';
-
-      // ── Empty state ──
-      emptyState.style.display = visible === 0 ? '' : 'none';
-    }
-
-    // ── Reset filter ─────────────────────────────────────
-    function resetFilters() {
-      inputLokasi.value = '';
-      selectTipe.value  = '';
-      selectHarga.value = '';
-      activeBeds = 'any';
-      bedBtns.forEach(b => b.classList.remove('active'));
-      document.querySelector('#filter-beds .bed-btn[data-beds="any"]').classList.add('active');
-      propertyCols.forEach((col, index) => {
-        col.style.display = '';
-        col.style.animation = 'fadeInCard .35s ease both';
-        if (propertyRows[index]) {
-          propertyRows[index].style.display = '';
-          propertyRows[index].style.animation = 'fadeInCard .35s ease both';
-        }
-      });
-      resultsCount.textContent = propertyCols.length + ' Properti Ditemukan';
-      resultsDesc.textContent  = 'Menampilkan semua properti tersedia';
-      emptyState.style.display = 'none';
-    }
-
-    // ── Keyframe animation ───────────────────────────────
-    if (!document.getElementById('filter-anim-style')) {
-      const style = document.createElement('style');
-      style.id = 'filter-anim-style';
-      style.textContent = `
+      // ── Keyframe animation ───────────────────────────────
+      if (!document.getElementById('filter-anim-style')) {
+        const style = document.createElement('style');
+        style.id = 'filter-anim-style';
+        style.textContent = `
         @keyframes fadeInCard {
           from { opacity: 0; transform: translateY(12px); }
           to   { opacity: 1; transform: translateY(0); }
@@ -1210,88 +1416,74 @@
           border-color: var(--accent-color, #8B7355) !important;
         }
       `;
-      document.head.appendChild(style);
-    }
+        document.head.appendChild(style);
+      }
 
-    // ── Auto-filter dari URL Parameters (Pencarian Index) ──
-    const urlParams = new URLSearchParams(window.location.search);
-    let shouldFilter = false;
+      // ── Auto-filter dari URL Parameters (Pencarian Index) ──
+      const urlParams = new URLSearchParams(window.location.search);
+      let shouldFilter = false;
 
-    if (urlParams.has('location')) {
-      inputLokasi.value = urlParams.get('location');
-      shouldFilter = true;
-    }
-    if (urlParams.has('property_type')) {
-      selectTipe.value = urlParams.get('property_type');
-      shouldFilter = true;
-    }
-    if (urlParams.has('price_range')) {
-      selectHarga.value = urlParams.get('price_range');
-      shouldFilter = true;
-    }
-    if (urlParams.has('bedrooms')) {
-      const bParam = urlParams.get('bedrooms');
-      bedBtns.forEach(b => b.classList.remove('active'));
-      let matchedBtn = Array.from(bedBtns).find(b => b.dataset.beds === bParam);
-      if (!matchedBtn) matchedBtn = document.querySelector('#filter-beds .bed-btn[data-beds="any"]');
-      matchedBtn.classList.add('active');
-      activeBeds = matchedBtn.dataset.beds;
-      shouldFilter = true;
-    }
+      if (urlParams.has('location')) {
+        inputLokasi.value = urlParams.get('location');
+        shouldFilter = true;
+      }
+      if (urlParams.has('property_type')) {
+        selectTipe.value = urlParams.get('property_type');
+        shouldFilter = true;
+      }
+      if (urlParams.has('price_range')) {
+        selectHarga.value = urlParams.get('price_range');
+        shouldFilter = true;
+      }
+      if (urlParams.has('bedrooms')) {
+        const bParam = urlParams.get('bedrooms');
+        bedBtns.forEach(b => b.classList.remove('active'));
+        let matchedBtn = Array.from(bedBtns).find(b => b.dataset.beds === bParam);
+        if (!matchedBtn) matchedBtn = document.querySelector('#filter-beds .bed-btn[data-beds="any"]');
+        matchedBtn.classList.add('active');
+        activeBeds = matchedBtn.dataset.beds;
+        shouldFilter = true;
+      }
 
-    // Jalankan filter jika ada parameter dari halaman depan
-    if (shouldFilter) {
-      // Tunggu sebentar agar elemen property di-render sempurna jika ada script eksternal
+      // Selalu jalankan filter di awal untuk menghitung total properti aktual
       setTimeout(runFilter, 50);
-    }
 
-  })();
+    })();
   </script>
 
-<script>
-  document.addEventListener("DOMContentLoaded", function() {
-    const urlParams = new URLSearchParams(window.location.search);
-    const agentQuery = urlParams.get('agent');
-    if (agentQuery) {
-      const decodedAgent = agentQuery.toLowerCase();
-      const resultsCount = document.getElementById('results-count');
-      const resultsDesc = document.getElementById('results-desc');
-      
-      const properties = document.querySelectorAll('.property-col, .property-row');
-      let visibleCount = 0;
-      properties.forEach(prop => {
-        const agentNameEl = prop.querySelector('.agent-details strong');
-        if (agentNameEl) {
-          const agentName = agentNameEl.innerText.toLowerCase();
-          if (!agentName.includes(decodedAgent)) {
-            prop.style.display = 'none';
-            // Also add a special class to prevent masonry/list layout scripts from overriding it
-            prop.classList.add('d-none');
-          } else {
-            prop.style.display = '';
-            prop.classList.remove('d-none');
-            visibleCount++;
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const urlParams = new URLSearchParams(window.location.search);
+      const agentQuery = urlParams.get('agent');
+      if (agentQuery) {
+        const decodedAgent = agentQuery.toLowerCase();
+        const resultsCount = document.getElementById('results-count');
+        const resultsDesc = document.getElementById('results-desc');
+
+        const properties = document.querySelectorAll('.property-col, .property-row');
+        let visibleCount = 0;
+        properties.forEach(prop => {
+          const agentNameEl = prop.querySelector('.agent-details strong');
+          if (agentNameEl) {
+            const agentName = agentNameEl.innerText.toLowerCase();
+            if (!agentName.includes(decodedAgent)) {
+              prop.style.display = 'none';
+              // Also add a special class to prevent masonry/list layout scripts from overriding it
+              prop.classList.add('d-none');
+            } else {
+              prop.style.display = '';
+              prop.classList.remove('d-none');
+              visibleCount++;
+            }
           }
-        }
-      });
-      if (resultsCount) resultsCount.innerText = (visibleCount/2) + " Properti Ditemukan"; // Divided by 2 if both masonry and rows are present and duplicate
-      // Actually let's just count unique visible items if they are duplicated. 
-      // Let's just say "Properti Ditemukan".
-      if (resultsDesc) resultsDesc.innerText = "Menampilkan properti khusus dari agen: " + agentQuery;
-    }
-  });
-</script>
+        });
+        if (resultsCount) resultsCount.innerText = (visibleCount / 2) + " Properti Ditemukan"; // Divided by 2 if both masonry and rows are present and duplicate
+        // Actually let's just count unique visible items if they are duplicated. 
+        // Let's just say "Properti Ditemukan".
+        if (resultsDesc) resultsDesc.innerText = "Menampilkan properti khusus dari agen: " + agentQuery;
+      }
+    });
+  </script>
 </body>
 
 </html>
-
-
-
-
-
-
-
-
-
-
-
